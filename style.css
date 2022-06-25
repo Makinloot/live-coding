@@ -96,6 +96,13 @@ body {
     border: none;
     border-bottom: 1px solid rgb(74, 147, 255);
     padding: .3rem;
+    margin: .5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 ::placeholder {
@@ -106,6 +113,7 @@ body {
 .close-form {
     position: absolute;
     right: 1rem;
+    top: 1rem;
     border: none;
     cursor: pointer;
 }
